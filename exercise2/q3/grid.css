@@ -1,0 +1,74 @@
+.container{
+    display: grid;
+    max-width: 600px;
+    max-height: 600px;
+    grid-template-columns: 200px 179.5px 200px;
+    grid-template-rows: 200px 179.5px 200px;
+    grid-template-areas: "item1 item2 item3"
+                "item4 item5 item6"
+                "item7 item8 item9";
+    gap: 10px;
+    border: 1px solid black;
+    
+}
+
+.item1{
+    background-color: aqua;
+    border: 1px solid black;
+    grid-area:item1;
+    padding:90px;
+}
+
+.item2{
+    background-color: beige;
+    border: 1px solid black;
+    grid-area:item2;
+    padding:90px;
+}
+
+.item3{
+    background-color: teal;
+    border: 1px solid black;
+    grid-area:item3;
+    padding:90px;
+}
+.item4{
+    background-color: red;
+    border: 1px solid black;
+    grid-area:item4;
+    padding:90px;
+}
+.item5{
+    background-color: orange;
+    border: 1px solid black;
+    grid-area:item5;
+    padding:90px;
+}
+.item6{
+
+    background-color: yellow;
+    border: 1px solid black;
+    grid-area:item6;
+    padding:90px;
+}
+.item7{
+
+    background-color: violet;
+    border: 1px solid black;
+    grid-area:item7;
+    padding:90px;
+}
+.item8{
+
+    background-color: pink;
+    border: 1px solid black;
+    grid-area:item8;
+    padding:90px;
+}
+.item9{
+ 
+    background-color: crimson;
+    border: 1px solid black;
+    grid-area:item9;
+    padding:90px;
+}
