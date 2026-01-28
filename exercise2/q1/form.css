@@ -10,7 +10,7 @@ body{
     padding: 20px;
 }
 
-/* Top bar */
+
 .topbar{
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body{
     font-size: 14px;
 }
 
-/* Form box */
+
 .box{
     width: 450px;
     background: white;
@@ -87,7 +87,7 @@ select{
 }
 
 
-/* Button alignment fix */
+
 .button{
     display: flex;
     justify-content: flex-end;
@@ -104,7 +104,7 @@ select{
 }
 
 .form-footer {
-    background: #e6eaed;   /* light grey */
+    background: #e6eaed;   
     padding: 15px;
     border-top: 1px solid #c8c8c8;
     border-radius: 0 0 5px 5px;
