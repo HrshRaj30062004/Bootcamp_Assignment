@@ -1,0 +1,52 @@
+
+.todo-box{
+    background-color: #a7e9db;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    border-radius: 7px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.add-button {
+    height: 40px;
+    width: 50px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.delete-all-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+ul li{
+    background-color: whitesmoke;
+    list-style: none;
+    color: black;
+    padding: 15px;
+    width: 380px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

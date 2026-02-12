@@ -1,0 +1,39 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: 500;
+}
+
+.pages {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}

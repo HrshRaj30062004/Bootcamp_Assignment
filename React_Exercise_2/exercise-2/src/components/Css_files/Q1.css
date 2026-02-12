@@ -1,0 +1,38 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0;
+}
+
+
+.counter h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.counter p{
+    margin-top: 50px;
+    font-size: 45px;
+    background-color: antiquewhite;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px 0;
+    border-radius: 10px;
+}
+
+.counter button{
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 60px;
+    font-size: 25px;
+}
