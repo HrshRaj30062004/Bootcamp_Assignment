@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;   
+  transition: all 0.35s ease;
+}
+
+.App.light {
+  background-color: rgb(244, 234, 216);
+  color: black;
+}
+
+.App.dark {
+  background-color: #333333;
+  color: wheat;
+}
+
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  background-color: #333333;
+  justify-content: center;   
+}
+
+.navbar a {
+  color: rgb(9, 173, 173);
+  font-weight: 700;
+}
+
+
+
+.page-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+}
+
+
+
+
+.form input {
+  width: 75px;
+}

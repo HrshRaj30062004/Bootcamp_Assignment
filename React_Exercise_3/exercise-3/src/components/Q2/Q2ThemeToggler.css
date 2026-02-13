@@ -1,0 +1,51 @@
+.q2-theme .card-toggle {
+  width: 340px;
+  padding: 36px 40px;
+  border-radius: 18px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+body.light .q2-theme .card-toggle {
+  background: #ffffff;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+body.dark .q2-theme .card-toggle {
+  background: #111827;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.45);
+}
+
+.q2-theme h2 {
+  margin-bottom: 26px;
+  letter-spacing: 0.4px;
+}
+
+.q2-theme .card-btn {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+body.dark .q2-theme .card-btn {
+  background: #f5f5f5;
+  color: #121212;
+}
+
+body.light .q2-theme .card-btn {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+.q2-theme .card-btn:hover {
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.q2-theme .card-btn:active {
+  box-shadow: none;
+}
