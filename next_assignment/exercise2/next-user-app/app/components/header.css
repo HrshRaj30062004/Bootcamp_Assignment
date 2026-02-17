@@ -1,0 +1,29 @@
+.header {
+  padding: 20px 0;
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;  
+  gap: 30px;                
+}
+
+.navLink {
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navLink:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #0070f3;
+  color: white;
+}

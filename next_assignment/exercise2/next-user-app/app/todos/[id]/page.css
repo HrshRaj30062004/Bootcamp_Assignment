@@ -1,0 +1,53 @@
+.todoDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+
+.todoDetailsCard {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.todoDetailsHeading {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.todoInfo {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.statusCompleted {
+  color: green;
+  font-weight: 600;
+}
+
+.statusPending {
+  color: red;
+  font-weight: 600;
+}
+
+.backButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.backButton:hover {
+  background-color: #0059c1;
+}

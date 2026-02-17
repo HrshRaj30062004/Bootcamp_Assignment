@@ -1,0 +1,59 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 80vh;
+    background-color: #f5f7fa;
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.userId {
+    font-size: 14px;
+    color: #666;
+}
+
+.userName {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0059c1;
+}

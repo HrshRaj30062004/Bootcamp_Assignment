@@ -1,0 +1,57 @@
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 80vh;
+  background-color: #f5f7fa;
+}
+
+.todosHeading {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.todoCard {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  text-align: center; 
+}
+
+.todoCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.todoId {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.todoTitle {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.todoStatus {
+  font-size: 14px;
+}
+
+.completed {
+  color: green;
+}
+
+.pending {
+  color: red;
+}
