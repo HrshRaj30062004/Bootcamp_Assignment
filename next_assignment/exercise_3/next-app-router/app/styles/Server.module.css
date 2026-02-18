@@ -1,0 +1,25 @@
+.container {
+    padding: 40px 20px;
+    min-height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(225, 218, 218);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--primary-color);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+
+    
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}

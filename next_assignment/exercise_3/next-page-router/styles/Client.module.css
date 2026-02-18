@@ -1,0 +1,10 @@
+.container{
+    padding: 40px 20px;
+    min-height: 80vh;
+    background-color: whitesmoke;
+}
+
+.container h1{
+    color:black;
+    text-align: center;
+}
