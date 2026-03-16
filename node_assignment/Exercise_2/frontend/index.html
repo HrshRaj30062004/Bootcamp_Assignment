@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>User Search</h2>
+
+<input type="text" id="searchUser" placeholder="Search username">
+<ul id="suggestions"></ul>
+
+<hr>
+
+<h2>Students</h2>
+
+<select id="branchFilter">
+<option value="">All</option>
+<option value="CSE">CSE</option>
+<option value="ECE">ECE</option>
+<option value="ME">ME</option>
+</select>
+
+<table border="1">
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Branch</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="studentTable"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
